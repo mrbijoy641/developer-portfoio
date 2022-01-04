@@ -37,6 +37,13 @@ img{
 p{
     color: rgb(59, 53, 53);
 }
+h1{
+    font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+}
 .top-banner{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
@@ -51,4 +58,45 @@ p{
     background-position: right;
   
 
+}
+.experience{
+    display: flex;
+}
+
+.box-shadow{
+   box-shadow: 10px 10px 30px gray;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 30px;
+   margin-bottom: 50px;
+   border-radius: 8px;
+ 
+}
+.experience-area h1{
+    margin-left: 100px;}
+ 
+.experience-area {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+#baby-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(  #c21500,  #ffc500 );
+    border-image-slice: 1;
+      
+        
+}
+footer p {
+    text-align: center;
+    background-color: rgb(23, 20, 54);
+    padding: 20px;
+    color: #fff;
 }
